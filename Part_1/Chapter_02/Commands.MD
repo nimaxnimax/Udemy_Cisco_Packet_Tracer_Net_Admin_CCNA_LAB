@@ -1,14 +1,20 @@
 Commands:
 
-End Device - Windows Commands:
+End Device - Windows Commands >>
+
 ipconfig
 
-End Device - Linux Commands:
+End Device - Linux Commands >>
+
 ifconfig
+
 arp -a
+
 arp -d
+
 ipconfig /all
 
-Cisco Commands:
+Cisco Commands >>
+
 show mac-address-table
 
