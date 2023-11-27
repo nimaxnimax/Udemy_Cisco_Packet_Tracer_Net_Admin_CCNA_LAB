@@ -1,18 +1,21 @@
 Commands:
 
+
 End Device - Windows Commands >>
 
 ipconfig
-
-End Device - Linux Commands >>
-
-ifconfig
 
 arp -a
 
 arp -d
 
 ipconfig /all
+
+
+End Device - Linux Commands >>
+
+ifconfig
+
 
 Cisco Commands >>
 
