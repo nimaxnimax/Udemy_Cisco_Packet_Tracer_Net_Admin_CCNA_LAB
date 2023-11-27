@@ -2,7 +2,7 @@ Lab:
 
 1- Configure IP addresses for both end devices in subnet A >> range: 192.168.11.0/24 or 192.168.11.0 255.255.255.0
 
-2- Configure IP addresses for both end devices in subnet B >> range: 192.168.13.0/24 or 192.168.12.0 255.255.255.0
+2- Configure IP addresses for both end devices in subnet B >> range: 192.168.13.0/24 or 192.168.13.0 255.255.255.0
 
 3- Check IP connectivity for end devices in subnet A
 
