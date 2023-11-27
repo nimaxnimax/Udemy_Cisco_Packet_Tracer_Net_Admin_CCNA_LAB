@@ -7,3 +7,4 @@ Lab:
 6- Check IP configurations on end devices
 7- Check MAC address table on switch
 8- Clear ARP cache on end devices
+

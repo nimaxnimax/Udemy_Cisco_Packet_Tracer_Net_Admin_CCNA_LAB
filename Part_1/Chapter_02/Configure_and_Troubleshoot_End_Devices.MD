@@ -1,4 +1,4 @@
-How to Configure and Troubleshoot End Devices in Cisco Packet Tracer?
+How to Configure and Troubleshoot End Devices in Cisco Packet Tracer? How to Connect Hubs and Switches?
 
 End Devices:
 In computer networking, an end device refers to a device that is the ultimate destination or source of data on a network. End devices are the entities that generate or consume data in a network. These devices are typically located at the edges of the network, and they communicate with each other through the use of intermediary devices such as routers, switches, and hubs.
@@ -195,3 +195,4 @@ Here are key points about gateways in IP configuration:
 10. Security Considerations:
     - Gateways often serve as a point of entry into a network, and securing the gateway is crucial for preventing unauthorized access and protecting the network from potential threats.
 A gateway in IP configuration serves as the doorway between different networks, allowing devices to communicate across local and external networks. It plays a pivotal role in enabling internet connectivity and directing data traffic in a networked environment.
+
