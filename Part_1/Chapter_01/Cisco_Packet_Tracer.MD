@@ -27,3 +27,4 @@ Once installed and activated, launch Cisco Packet Tracer and start using it to s
 
 Update (if necessary):
 Check for updates regularly, as Cisco may release new versions of Packet Tracer with additional features and bug fixes.
+
