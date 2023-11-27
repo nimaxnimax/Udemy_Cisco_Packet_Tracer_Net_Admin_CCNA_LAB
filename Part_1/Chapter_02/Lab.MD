@@ -16,3 +16,5 @@ Lab:
 
 8- Clear ARP cache on end devices
 
+9- Add another end devices (PCs) and hubs in subnets A and B and connect to hub and different port of the switch and test the connectivity within subnet A and subnet B and check mac address table of the switch and arp cache of the end devices
+
