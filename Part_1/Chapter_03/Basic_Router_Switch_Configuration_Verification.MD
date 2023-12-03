@@ -47,7 +47,8 @@ The Cisco Catalyst 2960 switches are known for their reliability, simplicity, an
 9. Web-Based Management Interface: The switches can be configured and monitored through a web-based interface, making them user-friendly for administrators.
 It's worth noting that there are different models within the Cisco Catalyst 2960 Series, and the specific features and capabilities may vary between models. The series is commonly used in small to medium-sized business networks, branch offices, and other environments where a reliable and feature-rich switch is required.
 
-https://www.cisco.com/c/en/us/support/switches/catalyst-2960-series-switches/series.html
+https://www.cisco.com/c/en/us/support/switches/catalyst-2960-series-switches/series.
+
 https://www.cisco.com/c/dam/en_us/solutions/small-business/products/routers-switches/catalyst-2960-series-switches/C45-484155-03_2960_AAG_v1b.pdf
 
 
@@ -65,7 +66,9 @@ When planning an upgrade, consider the following steps:
 It's recommended to consult with Cisco representatives, authorized resellers, or IT consultants who can provide specific guidance based on your organization's needs and the latest product offerings. Always check Cisco's official website for the most up-to-date information on switch models, their specifications, and their support status.
 
 https://www.cisco.com/c/en_hk/products/switches/catalyst-9200-series-switches/index.html
+
 https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html
+
 https://www.cisco.com/c/en_hk/solutions/enterprise-networks/catalyst-9000.html
 
 
@@ -84,6 +87,8 @@ Key features of the Cisco 1841 router include:
 The Cisco 1841 router is part of Cisco's broader portfolio of routers, and while it has been widely used in the past, it's important to consider newer models like the Cisco ISR 4000 Series for more up-to-date features and performance capabilities. When planning to deploy or upgrade networking equipment, it's recommended to consult with Cisco representatives or authorized resellers for the latest product offerings and guidance based on specific requirements.
 
 https://www.cisco.com/c/en/us/support/routers/1800-series-integrated-services-routers-isr/series.html
+
 https://www.cisco.com/c/en/us/obsolete/routers/cisco-1841-integrated-services-router.html
+
 https://www.cisco.com/c/en/us/support/routers/1900-series-integrated-services-routers-isr/series.html
 
