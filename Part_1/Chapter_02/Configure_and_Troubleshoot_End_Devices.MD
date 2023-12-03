@@ -1,4 +1,5 @@
-How to Configure and Troubleshoot End Devices in Cisco Packet Tracer? How to Connect Hubs and Switches?
+How to Configure and Troubleshoot End Devices in Cisco Packet Tracer?
+How to Connect Hubs and Switches?
 
 End Devices:
 In computer networking, an end device refers to a device that is the ultimate destination or source of data on a network. End devices are the entities that generate or consume data in a network. These devices are typically located at the edges of the network, and they communicate with each other through the use of intermediary devices such as routers, switches, and hubs.
