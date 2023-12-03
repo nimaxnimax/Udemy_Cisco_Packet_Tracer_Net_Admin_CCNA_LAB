@@ -55,7 +55,7 @@ https://www.cisco.com/c/dam/en_us/solutions/small-business/products/routers-swit
 ****************************************************************************************************
 Cisco 9200 Switch:
 If the Cisco Catalyst 2960 switch is reaching its end-of-support (EOS) or end-of-life (EOL) phase, it's advisable to consider upgrading to a newer switch model that is currently supported by Cisco. Cisco regularly introduces new switch models with improved features, performance, and security. The specific replacement switch would depend on your organization's requirements, network size, and the features needed.
-As of my last knowledge update in January 2022, the Cisco Catalyst 9200 Series switches are among the newer models that could be considered as an upgrade from the 2960 Series. The Catalyst 9200 switches offer features like enhanced security, advanced programmability, and support for higher-speed connectivity. However, keep in mind that Cisco may have introduced newer switch models or made updates since then.
+The Cisco Catalyst 9200 Series switches are among the newer models that could be considered as an upgrade from the 2960 Series. The Catalyst 9200 switches offer features like enhanced security, advanced programmability, and support for higher-speed connectivity. However, keep in mind that Cisco may have introduced newer switch models or made updates since then.
 When planning an upgrade, consider the following steps:
 1. Assessment: Evaluate your current network requirements, including the number of ports needed, desired speed (Gigabit or 10 Gigabit), PoE requirements, and any specific features required for your applications.
 2. Consult Cisco Documentation: Check Cisco's official documentation, including datasheets and configuration guides for the latest information on available switch models, their features, and specifications.
@@ -74,7 +74,7 @@ https://www.cisco.com/c/en_hk/solutions/enterprise-networks/catalyst-9000.html
 
 ****************************************************************************************************
 Cisco 1841 Router:
-The Cisco 1841 router is part of Cisco's Integrated Services Router (ISR) series, designed for small to medium-sized businesses and enterprise branch offices. The "1841" in the model number refers to the series and specific model of the router. The Cisco 1841 router was a popular choice for its versatility, offering a range of features suitable for various networking needs. It's important to note that my knowledge was last updated in January 2022, and there may have been developments or newer models introduced since then.
+The Cisco 1841 router is part of Cisco's Integrated Services Router (ISR) series, designed for small to medium-sized businesses and enterprise branch offices. The "1841" in the model number refers to the series and specific model of the router. The Cisco 1841 router was a popular choice for its versatility, offering a range of features suitable for various networking needs.
 Key features of the Cisco 1841 router include:
 1. Modular Design: The Cisco 1841 router has a modular design, allowing users to add or upgrade modules for additional functionality. This includes WAN interface cards (WICs) and advanced integration modules (AIMs) to enhance performance and capabilities.
 2. Routing: The router supports a variety of routing protocols, including static routing, dynamic routing (such as OSPF and EIGRP), and policy-based routing. It can facilitate the forwarding of data between different networks.
