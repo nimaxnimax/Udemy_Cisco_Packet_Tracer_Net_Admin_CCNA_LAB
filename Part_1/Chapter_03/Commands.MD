@@ -46,3 +46,7 @@ write
 
 show flash
 
+hostname R1
+
+hostname SW1
+

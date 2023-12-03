@@ -497,3 +497,47 @@ Some variations of the `show flash` command include:
 
 The `show flash` command is commonly used to verify the presence of the correct IOS image, check available space, and identify other files stored in the flash memory. It's an essential command for managing and maintaining Cisco devices.
 
+
+****************************************************************************************************
+17: hostname command
+
+The `hostname` command in Cisco IOS is used to set the hostname of a Cisco device. The hostname is a user-friendly label assigned to the device, and it is often used to identify the device in the network. Changing the hostname is a basic configuration task that allows you to customize the prompt that appears in the command-line interface (CLI) and helps distinguish one device from another.
+
+Here's an example of how to use the `hostname` command:
+
+```bash
+Router> enable
+Router# configure terminal
+Router(config)# hostname MyRouter
+MyRouter(config)#
+```
+
+In this example:
+
+- `enable`: Enters privileged EXEC mode.
+- `configure terminal`: Enters global configuration mode.
+- `hostname MyRouter`: Sets the hostname to "MyRouter." The prompt changes accordingly.
+
+After setting the hostname, the command-line prompt reflects the new hostname, making it easier for administrators to identify the device. For example:
+
+```bash
+MyRouter(config)#
+```
+
+It's important to note that changing the hostname does not impact the device's functionality or its operation in the network. The primary purpose is to provide a recognizable and meaningful label for the device.
+
+Additionally, when configuring a hostname, you should follow certain guidelines:
+
+1. The hostname should be alphanumeric and can include hyphens, but it cannot start or end with a hyphen.
+2. The hostname is case-insensitive.
+3. Some special characters are not allowed in the hostname.
+
+Here's an example of how to verify the configured hostname:
+
+```bash
+MyRouter# show running-config | include hostname
+hostname MyRouter
+```
+
+This command displays the current hostname configuration in the running configuration.
+
