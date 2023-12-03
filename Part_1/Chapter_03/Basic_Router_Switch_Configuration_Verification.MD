@@ -1,6 +1,8 @@
 Basic Router/Switch Configuration & Verification
 Comparing Cisco Switches and Routers
 
+
+****************************************************************************************************
 Cisco Switch:
 A Cisco switch is a networking device that operates at Layer 2 (Data Link Layer) or Layer 3 (Network Layer) of the OSI (Open Systems Interconnection) model. Its primary function is to forward data frames between devices within a local area network (LAN) by using MAC addresses. Cisco is a prominent networking equipment manufacturer, and Cisco switches are widely used in various organizations and industries.
 Cisco switches come in different models and configurations to suit different network sizes and requirements. Some common features of Cisco switches include:
@@ -13,6 +15,8 @@ Cisco switches come in different models and configurations to suit different net
 7. Security Features: Cisco switches offer various security features, including port security, access control lists (ACLs), and other mechanisms to protect the network from unauthorized access and attacks.
 Cisco switches play a crucial role in building and managing efficient and secure networks. They are a key component in enterprise and data center environments where reliable and high-performance networking is essential.
 
+
+****************************************************************************************************
 Cisco Router:
 A Cisco router is a networking device that operates at Layer 3 (Network Layer) of the OSI (Open Systems Interconnection) model. Cisco is a leading manufacturer of networking equipment, and Cisco routers are widely used to connect different networks and facilitate the routing of data between them. Routers are crucial components in the architecture of computer networks, allowing for the interconnection of various devices and enabling communication between different subnets or networks.
 Key features and functions of Cisco routers include:
@@ -26,6 +30,8 @@ Key features and functions of Cisco routers include:
 8. Command-Line Interface (CLI) and Management Interfaces: Cisco routers can be configured and managed using a command-line interface (CLI) or web-based interfaces. They also support network management protocols such as SNMP for monitoring and management.
 Cisco routers are widely deployed in enterprise networks, service provider networks, and data centers. They play a critical role in directing data traffic between different networks and ensuring the efficient and secure operation of complex interconnected systems.
 
+
+****************************************************************************************************
 Cisco 2960 Switch:
 The Cisco Catalyst 2960 Series Switches are a family of fixed-configuration, stackable Ethernet switches designed for entry-level enterprise, midmarket, and branch office networks. These switches are part of Cisco's larger Catalyst series, which includes a wide range of switches for various network sizes and requirements.
 The Cisco Catalyst 2960 switches are known for their reliability, simplicity, and advanced features. Here are some key characteristics of the Cisco Catalyst 2960 Series Switches:
@@ -43,6 +49,8 @@ It's worth noting that there are different models within the Cisco Catalyst 2960
 https://www.cisco.com/c/en/us/support/switches/catalyst-2960-series-switches/series.html
 https://www.cisco.com/c/dam/en_us/solutions/small-business/products/routers-switches/catalyst-2960-series-switches/C45-484155-03_2960_AAG_v1b.pdf
 
+
+****************************************************************************************************
 Cisco 9200 Switch:
 If the Cisco Catalyst 2960 switch is reaching its end-of-support (EOS) or end-of-life (EOL) phase, it's advisable to consider upgrading to a newer switch model that is currently supported by Cisco. Cisco regularly introduces new switch models with improved features, performance, and security. The specific replacement switch would depend on your organization's requirements, network size, and the features needed.
 As of my last knowledge update in January 2022, the Cisco Catalyst 9200 Series switches are among the newer models that could be considered as an upgrade from the 2960 Series. The Catalyst 9200 switches offer features like enhanced security, advanced programmability, and support for higher-speed connectivity. However, keep in mind that Cisco may have introduced newer switch models or made updates since then.
@@ -59,6 +67,8 @@ https://www.cisco.com/c/en_hk/products/switches/catalyst-9200-series-switches/in
 https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html
 https://www.cisco.com/c/en_hk/solutions/enterprise-networks/catalyst-9000.html
 
+
+****************************************************************************************************
 Cisco 1841 Router:
 The Cisco 1841 router is part of Cisco's Integrated Services Router (ISR) series, designed for small to medium-sized businesses and enterprise branch offices. The "1841" in the model number refers to the series and specific model of the router. The Cisco 1841 router was a popular choice for its versatility, offering a range of features suitable for various networking needs. It's important to note that my knowledge was last updated in January 2022, and there may have been developments or newer models introduced since then.
 Key features of the Cisco 1841 router include:

@@ -1,6 +1,8 @@
 How to Configure and Troubleshoot End Devices in Cisco Packet Tracer?
 How to Connect Hubs and Switches?
 
+
+****************************************************************************************************
 End Devices:
 In computer networking, an end device refers to a device that is the ultimate destination or source of data on a network. End devices are the entities that generate or consume data in a network. These devices are typically located at the edges of the network, and they communicate with each other through the use of intermediary devices such as routers, switches, and hubs.
 Here are some common examples of end devices in a network:
@@ -14,6 +16,8 @@ Here are some common examples of end devices in a network:
 8. Networked Appliances: Some home appliances, such as smart TVs, gaming consoles, and smart thermostats, are designed to connect to the network for additional functionality and updates.
 End devices are crucial components of a network as they are the sources and destinations of data. The communication between end devices is facilitated by networking protocols, and the data is often transmitted through the network infrastructure, which includes routers, switches, and other intermediary devices. The efficient and reliable operation of a network depends on the proper configuration and management of both end devices and the network infrastructure.
 
+
+****************************************************************************************************
 UTP Cables and Connections:
 UTP (Unshielded Twisted Pair) cables and connections are a common type of networking infrastructure used to transmit data in local area networks (LANs) and other communication systems. UTP cables are widely employed for connecting devices such as computers, printers, routers, and other networked equipment. Here's some key information about UTP cables and connections:
 1. Cable Structure:
@@ -38,6 +42,8 @@ UTP (Unshielded Twisted Pair) cables and connections are a common type of networ
    - Flexibility: UTP cables are flexible and easy to install, making them suitable for a variety of environments.
 UTP cables and connections play a crucial role in the foundation of many wired networks, providing a reliable and cost-effective solution for transmitting data between devices.
 
+
+****************************************************************************************************
 Hubs:
 In networking, a hub is a basic networking device that operates at the physical layer of the OSI (Open Systems Interconnection) model. Its primary function is to connect multiple devices in a local area network (LAN), allowing them to communicate with each other. However, hubs are considered outdated technology, and their use has largely been replaced by more advanced networking devices such as switches.
 Here are key characteristics and features of hubs:
@@ -61,6 +67,8 @@ Here are key characteristics and features of hubs:
    - For modern networks, it is strongly recommended to use switches instead of hubs. Switches operate at the data link layer (Layer 2) and provide benefits such as individual collision domains for each port, improved bandwidth utilization, and the ability to intelligently forward data only to the intended recipient.
 While hubs were once a common networking device for connecting multiple devices in a LAN, they are now considered outdated due to their limitations. Switches have largely replaced hubs in contemporary network infrastructures, offering better performance and efficiency.
 
+
+****************************************************************************************************
 Switches:
 Switches are fundamental networking devices that operate at the data link layer (Layer 2) of the OSI model. Unlike hubs, switches are more intelligent and efficient in handling network traffic. They play a crucial role in connecting multiple devices within a local area network (LAN) and help manage data flow more effectively. Here are key features and characteristics of switches:
 1. Packet Switching:
@@ -86,6 +94,8 @@ Switches are fundamental networking devices that operate at the data link layer 
     - Switches contribute to the reliability and scalability of networks by efficiently managing data traffic and supporting the addition of more devices without causing network congestion.
 Switches have become the standard networking device for connecting devices within a LAN due to their efficiency, intelligence, and ability to improve overall network performance. They are a fundamental component of modern networking infrastructures.
 
+
+****************************************************************************************************
 IPv4 and Subnets:
 IPv4 (Internet Protocol version 4) is the fourth version of the Internet Protocol, which is the fundamental communication protocol that provides an identification and location system for devices on networks. IPv4 addresses are 32-bit numerical labels written in the form of four sets of decimal numbers separated by periods (e.g., 192.168.1.1). Each number in this address represents 8 bits, and the entire address consists of four sets of 8 bits, totaling 32 bits.
 Subnetting is a technique used in networking to divide an IP network into smaller, more manageable sub-networks or subnets. Subnetting is particularly useful for efficient address allocation, better network organization, and improved security. Here are key concepts related to IPv4 and subnets:
@@ -109,6 +119,8 @@ Consider the IP address 192.168.1.0 with a subnet mask of 255.255.255.0 (/24 in 
 If you were to further subnet this network, you could create smaller subnets with their own address ranges and subnet masks.
 Subnetting is a powerful tool for optimizing IP address allocation and network organization. It allows network administrators to design networks that meet specific requirements and efficiently manage IP addresses.
 
+
+****************************************************************************************************
 MAC Address:
 A MAC (Media Access Control) address is a unique identifier assigned to a network interface controller (NIC) for communications on a network. Every device that connects to a network, such as computers, routers, and networked printers, is assigned a unique MAC address. The MAC address is a crucial component in the data link layer (Layer 2) of the OSI model and is used for local network communication.
 Here are key points about MAC addresses:
@@ -139,6 +151,8 @@ Let's take the MAC address "00:1A:2B:3C:4D:5E" as an example:
 - The unique identifier is "3C:4D:5E," distinguishing this particular network interface from others made by the same manufacturer.
 Understanding MAC addresses is crucial for network administrators, as they play a key role in device identification and communication within local networks.
 
+
+****************************************************************************************************
 ARP:
 ARP, or Address Resolution Protocol, is a network protocol used to map an IP (Internet Protocol) address to a physical MAC (Media Access Control) address on a local network. ARP is essential for communication between devices on the same network, as it allows devices to discover each other's hardware addresses.
 Here's how ARP works:
@@ -172,6 +186,8 @@ Security Considerations:
 - ARP is vulnerable to ARP spoofing or ARP poisoning attacks, where a malicious device sends false ARP replies to redirect traffic to an attacker's device. Security measures, such as ARP inspection, can help mitigate these risks.
 ARP is a fundamental protocol in local network communication, ensuring that devices can discover each other's MAC addresses to efficiently exchange data.
 
+
+****************************************************************************************************
 Gateway:
 In the context of IP configuration, a gateway serves as an essential component for network communication. A gateway, often referred to as a default gateway, is a device or a network node that connects different networks, allowing data to flow between them. It plays a crucial role in directing traffic between devices on the local network (LAN) and devices on external networks, such as the internet.
 Here are key points about gateways in IP configuration:
