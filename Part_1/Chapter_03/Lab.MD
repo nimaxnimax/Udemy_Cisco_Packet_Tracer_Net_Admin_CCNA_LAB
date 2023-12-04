@@ -1,5 +1,6 @@
 Basic Router/Switch Configuration & Verification Lab
 
+Default Username and Password: cisco
 
 ****************************************************************************************************
 1: Router Connection
