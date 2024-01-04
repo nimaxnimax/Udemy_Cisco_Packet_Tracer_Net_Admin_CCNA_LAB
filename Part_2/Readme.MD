@@ -402,6 +402,24 @@ show arp
 
 Command >>
 ```bash
+conf t
+cdp run
+int fa0/0
+cdp enable
+```
+**********
+
+Command >>
+```bash
+conf t
+no cdp run
+int fa0/0
+no cdp enable
+```
+**********
+
+Command >>
+```bash
 traceroute 192.168.11.1
 traceroute 192.168.11.254
 traceroute 192.168.13.1
