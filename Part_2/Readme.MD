@@ -1,11 +1,14 @@
+![Alt text](image.png)
+
+
 Udemy Course >> Cisco Packet Tracer Network Administration CCT/CCNA LAB Part 2 (CCNA 200-301)
 **********
 
 Complete CCT CCNA Lab Cisco Packet Tracer Network Administration CCNA 200-301 Routing Switching Configuration Troubleshooting
 **********
 
-Tips/Tricks/Notes/Commands >> URL Link >> 
-https://github.com/nimaxnimax/Udemy_Cisco_Packet_Tracer_Net_Admin_CCNA_LAB/tree/main/Part_2
+Tips/Tricks/Notes/Commands URL Link: https://github.com/nimaxnimax/Udemy_Cisco_Packet_Tracer_Net_Admin_CCNA_LAB/tree/main/Part_2
+
 **********
 
 Lab Info >> Packet Tracer Default Username and Password >> cisco/cisco
