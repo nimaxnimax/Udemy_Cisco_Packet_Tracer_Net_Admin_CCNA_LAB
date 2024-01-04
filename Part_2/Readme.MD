@@ -11,7 +11,12 @@ Tips/Tricks/Notes/Commands URL Link: https://github.com/nimaxnimax/Udemy_Cisco_P
 
 **********
 
+Packet Tracer Lab File >> Template >> Lab_Template.pkt
+
+Packet Tracer Lab File >> Completed >> Lab_Completed.pkt
+
 Lab Info >> Packet Tracer Default Username and Password >> cisco/cisco
+
 **********
 
 Command >>
