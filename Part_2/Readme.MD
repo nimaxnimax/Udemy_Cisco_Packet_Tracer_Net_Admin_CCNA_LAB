@@ -429,7 +429,7 @@ traceroute 192.168.13.254
 ```
 **********
 
-Command >>
+PC Command >>
 ```bash
 arp -a
 ipconfig
