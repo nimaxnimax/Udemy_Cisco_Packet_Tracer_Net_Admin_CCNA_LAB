@@ -9,6 +9,8 @@ Complete CCT CCNA Lab Cisco Packet Tracer Network Administration CCNA 200-301 Ro
 
 Tips/Tricks/Notes/Commands URL Link: https://github.com/nimaxnimax/Udemy_Cisco_Packet_Tracer_Net_Admin_CCNA_LAB/tree/main/Part_2
 
+Instructor & Courses >> https://www.udemy.com/user/adrian-fischer-infotech/
+
 **********
 
 Packet Tracer Lab File >> Template >> Lab_Template.pkt
