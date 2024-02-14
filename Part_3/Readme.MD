@@ -1,6 +1,6 @@
 
 
-![alt text](image.png)
+![alt text](course_image.png)
 
 Udemy Course >> Cisco Packet Tracer Network Administration CCT/CCNA LAB Part 3 (CCNA 200-301)
 
