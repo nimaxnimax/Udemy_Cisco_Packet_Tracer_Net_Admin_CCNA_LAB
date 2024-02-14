@@ -36,7 +36,7 @@ Lab Info >> Packet Tracer Default Username and Password >> cisco/cisco
 
 **********
 
-DHCP Configuration >> Router
+DHCP Configuration >> Router1
 
 ```bash
 !
@@ -110,11 +110,9 @@ interface Vlan1
  shutdown
 !
 interface Vlan15
- mac-address 0090.2b3e.4a01
  ip address 192.168.15.254 255.255.255.0
 !
 interface Vlan17
- mac-address 0090.2b3e.4a02
  ip address 192.168.17.254 255.255.255.0
 !
 ```
