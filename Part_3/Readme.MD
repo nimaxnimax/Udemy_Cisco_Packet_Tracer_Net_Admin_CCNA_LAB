@@ -36,6 +36,187 @@ Lab Info >> Packet Tracer Default Username and Password >> cisco/cisco
 
 **********
 
+DHCP Configuration >> Router
+
+```bash
+!
+ip dhcp excluded-address 192.168.11.200 192.168.11.254
+ip dhcp excluded-address 192.168.13.200 192.168.13.254
+!
+ip dhcp pool SUBNET-A
+ network 192.168.11.0 255.255.255.0
+ default-router 192.168.11.254
+ dns-server 8.8.8.8
+ip dhcp pool SUBNET-B
+ network 192.168.13.0 255.255.255.0
+ default-router 192.168.13.254
+ dns-server 1.1.1.1
+!
+!
+```
+
+```bash
+show run | section dhcp
+clear ip dhcp conflict *
+show ip dhcp binding
+```
+
+MLS 3560 Switch Configuration >>
+
+```bash
+!
+ip dhcp excluded-address 192.168.15.200 192.168.15.254
+ip dhcp excluded-address 192.168.17.200 192.168.17.254
+!
+ip dhcp pool SUBNET-C
+ network 192.168.15.0 255.255.255.0
+ default-router 192.168.15.254
+ dns-server 1.1.1.1
+ip dhcp pool SUBNET-D
+ network 192.168.17.0 255.255.255.0
+ default-router 192.168.17.254
+ dns-server 1.1.1.1
+!
+!
+ip routing
+
+!
+interface FastEthernet0/1
+ no switchport
+ ip address 172.16.0.1 255.255.255.0
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/2
+ switchport access vlan 15
+ switchport mode access
+!
+interface FastEthernet0/3
+ switchport access vlan 15
+ switchport mode access
+!
+interface FastEthernet0/4
+ switchport access vlan 17
+ switchport mode access
+!
+interface FastEthernet0/5
+ switchport access vlan 17
+ switchport mode access
+!
+
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+interface Vlan15
+ mac-address 0090.2b3e.4a01
+ ip address 192.168.15.254 255.255.255.0
+!
+interface Vlan17
+ mac-address 0090.2b3e.4a02
+ ip address 192.168.17.254 255.255.255.0
+!
+```
+
+R1 Config >>
+
+```bash
+!
+interface FastEthernet0/0/0
+ switchport mode access
+ switchport access vlan 1
+ no shutdown
+!
+interface Vlan1
+ ip address 10.255.255.1 255.255.255.0
+!
+ip route 192.168.15.0 255.255.255.0 10.255.255.2 
+ip route 192.168.17.0 255.255.255.0 10.255.255.2 
+!
+!
+```
+
+R2 Config >>
+
+```bash
+!
+interface GigabitEthernet0/0
+ ip address 10.255.255.2 255.255.255.0
+ duplex auto
+ speed auto
+!
+interface GigabitEthernet0/1
+ ip address 172.16.0.2 255.255.255.0
+ duplex auto
+ speed auto
+!
+ip route 192.168.11.0 255.255.255.0 10.255.255.1 
+ip route 192.168.13.0 255.255.255.0 10.255.255.1 
+ip route 192.168.15.0 255.255.255.0 172.16.0.1 
+ip route 192.168.17.0 255.255.255.0 172.16.0.1 
+!
+
+```
+
+MLS Config >>
+
+```bash
+hostname MLS
+!
+!
+!
+ip dhcp excluded-address 192.168.15.200 192.168.15.254
+ip dhcp excluded-address 192.168.17.200 192.168.17.254
+!
+ip dhcp pool SUBNET-C
+ network 192.168.15.0 255.255.255.0
+ default-router 192.168.15.254
+ dns-server 1.1.1.1
+ip dhcp pool SUBNET-D
+ network 192.168.17.0 255.255.255.0
+ default-router 192.168.17.254
+ dns-server 1.1.1.1
+!
+!
+ip routing
+!
+!
+!
+interface FastEthernet0/1
+ no switchport
+ ip address 172.16.0.1 255.255.255.0
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/2
+ switchport access vlan 15
+ switchport mode access
+!
+interface FastEthernet0/3
+ switchport access vlan 15
+ switchport mode access
+!
+interface FastEthernet0/4
+ switchport access vlan 17
+ switchport mode access
+!
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+interface Vlan15
+ ip address 192.168.15.254 255.255.255.0
+!
+interface Vlan17
+ ip address 192.168.17.254 255.255.255.0
+!
+ip route 192.168.11.0 255.255.255.0 172.16.0.2 
+ip route 192.168.13.0 255.255.255.0 172.16.0.2 
+!
+
+```
 
 
 **********
