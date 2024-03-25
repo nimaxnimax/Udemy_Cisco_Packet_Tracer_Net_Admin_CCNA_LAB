@@ -404,4 +404,106 @@ These commands provide a basic overview of STP configuration on Cisco switches. 
 
 **********
 
+Here are some additional STP-related commands used on Cisco switches:
+
+8. **Bridge Assurance Configuration**:
+   ```
+   switch(config)# spanning-tree portfast bpduguard default
+   ```
+   - This command globally enables PortFast and BPDU Guard on all PortFast-enabled interfaces. Bridge Assurance ensures that PortFast interfaces do not cause STP loops by verifying connectivity with the directly connected switch.
+
+9. **Root Bridge Selection**:
+   ```
+   switch(config)# spanning-tree vlan vlan-id root primary
+   ```
+   - This command instructs the switch to actively attempt to become the root bridge for the specified VLAN. It sets the switch's priority to the lowest value (i.e., 0) to prioritize root bridge election.
+
+10. **Bridge Priority Adjustment**:
+    ```
+    switch(config)# spanning-tree vlan vlan-id root secondary
+    ```
+    - This command configures the switch as a secondary root bridge candidate for the specified VLAN. It sets the switch's priority to a higher value than the current root bridge, allowing it to take over as the root bridge if the primary root bridge fails.
+
+11. **BPDU Guard Configuration (Interface Level)**:
+    ```
+    switch(config-if)# spanning-tree bpduguard enable
+    ```
+    - This command enables BPDU Guard on a specific interface. BPDU Guard shuts down the interface if it receives any BPDUs, preventing loops caused by misconfigured ports or unauthorized devices.
+
+12. **Loop Guard Configuration (Interface Level)**:
+    ```
+    switch(config-if)# spanning-tree guard loop
+    ```
+    - This command enables Loop Guard on a specific interface. Loop Guard monitors the receipt of BPDUs on nondesignated ports and places them into the loop-inconsistent state if BPDUs are not received, preventing forwarding loops.
+
+13. **BPDU Filter Configuration (Interface Level)**:
+    ```
+    switch(config-if)# spanning-tree bpdufilter enable
+    ```
+    - This command enables BPDU Filtering on a specific interface. BPDU Filtering prevents the transmission and reception of BPDUs on the interface, effectively disabling STP operation on that port.
+
+14. **STP Timers Adjustment**:
+    ```
+    switch(config)# spanning-tree vlan vlan-id hello-time seconds
+    switch(config)# spanning-tree vlan vlan-id forward-time seconds
+    switch(config)# spanning-tree vlan vlan-id max-age seconds
+    ```
+    - These commands adjust the STP timers for the specified VLAN. The hello-time, forward-time, and max-age timers control the interval between BPDU transmissions, the duration of the listening and learning states, and the maximum age of received BPDUs, respectively.
+
+These commands provide additional functionality and fine-grained control over STP operation on Cisco switches. They allow administrators to optimize STP performance, enhance network stability, and mitigate potential risks associated with loops and misconfigurations.
+
+**********
+
+To verify and troubleshoot Spanning Tree Protocol (STP) on Cisco switches, you can use various commands to check the status of STP, view spanning tree topology information, and diagnose potential issues. Here are some commonly used commands:
+
+1. **Show Spanning-Tree Summary**:
+   ```
+   show spanning-tree summary
+   ```
+   - This command provides a summary of the STP configuration and status, including the bridge ID, root bridge information, and number of active interfaces per VLAN.
+
+2. **Show Spanning-Tree VLAN**:
+   ```
+   show spanning-tree vlan vlan-id
+   ```
+   - This command displays detailed information about the spanning tree for a specific VLAN, including the root bridge, port roles, port states, and timers.
+
+3. **Show Spanning-Tree Interface**:
+   ```
+   show spanning-tree interface interface-id
+   ```
+   - This command provides information about the STP configuration and status for a specific interface, including its port role, port state, path cost, and BPDU information.
+
+4. **Show Spanning-Tree Bridge**:
+   ```
+   show spanning-tree bridge
+   ```
+   - This command displays information about the switch's bridge ID, priority, and system ID extension (if configured). It also shows the switch's role in the spanning tree topology.
+
+5. **Show Spanning-Tree Active**:
+   ```
+   show spanning-tree active
+   ```
+   - This command provides real-time information about the active ports and their roles in the spanning tree. It includes detailed output about each port's status, including designated ports, root ports, and blocked ports.
+
+6. **Show Spanning-Tree Event History**:
+   ```
+   show spanning-tree event-history
+   ```
+   - This command displays a history of spanning tree-related events, such as topology changes, port state transitions, and BPDU reception. It can be useful for troubleshooting spanning tree issues.
+
+7. **Debug Spanning-Tree Events**:
+   ```
+   debug spanning-tree events
+   ```
+   - This command enables debugging messages for spanning tree events. Use with caution, as it generates a significant amount of output and can impact switch performance.
+
+8. **Clear Spanning-Tree Counters**:
+   ```
+   clear spanning-tree counters
+   ```
+   - This command clears the spanning tree-related counters on the switch, including counters for topology changes, BPDU receptions, and port transitions. It can help reset counters for troubleshooting purposes.
+
+When troubleshooting STP, pay attention to the root bridge election, port roles, port states, path costs, and any reported issues such as topology changes or inconsistent BPDUs. Using these commands, you can diagnose and resolve spanning tree-related problems to ensure network stability and optimal performance.
+
 **********
